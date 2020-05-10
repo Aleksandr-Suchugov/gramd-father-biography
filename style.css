@@ -1,0 +1,165 @@
+@font-face { 
+    font-family: 'PTmono'; 
+    src: url(fonts/PTM75F.ttf); 
+    font-weight: 700; 
+    font-style: normal; 
+  }
+  @font-face { 
+    font-family: 'PTmono'; 
+    src: url(fonts/PTM55F.ttf); 
+    font-weight: 400; 
+    font-style: normal; 
+  }
+
+body {
+    min-width: 1600px;
+    max-width: 1600px;
+    margin: 0;
+    color: #000000;   
+    font-family: 'PTmono', serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: justify;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #5a5959;
+}
+.subject-container {
+    background-image: url("img/paraсhuts.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -350px;
+    height: 600px;
+    position: relative;
+}
+.subject {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+  padding-top: 450px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0;
+  color: gold;
+  position: relative;
+}
+.subject::before {
+  content: "";
+  background-color: rgb(179, 174, 131);
+  opacity: 0.4;
+  position: absolute;
+  top: 430px;
+  bottom: -10px;
+  left: 90px;
+  right: 90px;
+}
+.subject-container::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.4;
+}
+.head-stripe {
+  width: 100%;
+  position: absolute;
+  top: 50px;
+}
+.main-page {
+    border-top: 15px solid rgba(0, 0, 0, 0.4);
+    background-image: url("img/kraft.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.content-wrapper-first, .content-wrapper-second, .content-wrapper-third {
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+}
+.content-wrapper-first {
+  padding-top: 50px;
+}
+.first-pic, .third-pic {
+  width: 35%;
+  margin-right: 40px;
+}
+.second-pic {
+  order: 1;
+  width: 50%;
+  margin-left: 40px;
+}
+.last-image-wrapper {
+  display: flex;
+  align-items: center;
+}
+.forth-pic {
+  width: 45%;
+  margin-right: 100px;
+}
+.forth-block {
+  display: block;
+  margin-top: 10px;
+}
+.rewards-list {
+  padding-left: 0;
+  list-style-type: none;
+  margin: 0;
+  font-size: 16px;
+  align-items: center;
+}
+.reward-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  
+}
+.reward {
+  height: 140px;
+  margin-right: 15px;
+}
+.reward-date {
+  display: block;
+}
+.content-wrapper-forth::after {
+  content: "";
+  background-image: url(img/sign.jpg);
+  opacity: 0.4;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer-images {
+  position: relative;
+}
+.footer-stripe {
+  margin-top: 40px;
+  width: 100%;
+}
+.footer-lable {
+  position: absolute;
+  color: gold;
+  font-size: 60px;
+  font-weight: 700;
+  top: 120px;
+  left: 450px;
+}
+.r1 {
+  margin-right: 65px;
+}
+.r4 {
+  margin-right: 100px;
+}
+.r5 {
+  margin-right: 20px;
+}
+.r6 {
+  margin-right: 75px;
+}
